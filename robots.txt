@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://lqingli45-byte.github.io/yixian-lab/sitemap.xml

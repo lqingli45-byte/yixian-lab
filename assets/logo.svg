@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="易娴实验室">
+  <rect width="64" height="64" rx="16" fill="#3F6F5B"/>
+  <g fill="none" stroke="#F7F3EC" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M18 46c4 3 8 4 14 4s10-1 14-4"/>
+    <path d="M32 48V24"/>
+    <path d="M32 33c-7-1-12-7-13-13 8 1 13 7 13 13"/>
+    <path d="M32 28c6-2 11-8 11-14 0 8-5 13-11 14"/>
+  </g>
+</svg>
