@@ -8,7 +8,7 @@
   "suggestedRepoName": "yixian-lab",
   "publicBaseUrl": "https://lqingli45-byte.github.io/yixian-lab/",
   "githubRepo": "https://github.com/lqingli45-byte/yixian-lab",
-  "status": "deploying-to-github-pages",
+  "status": "published",
   "checkoutEnabled": false,
-  "notes": "Chinese personal brand site for 易娴实验室 (Yixian Lab), corresponding to the WeChat official account 《易晓娴·成长实验》, with planned digital product directions. Do not invent prices, buy buttons, sales, reviews, article lists, follower counts, or a WeChat ID. Do not include child, family, or work-finance details. Do not submit Dodo review or enable payments until the user confirms and real products exist."
+  "notes": "Official Yixian Lab site on GitHub Pages. First product is AI Work Log & Review Kit v1.1, listed as Coming Soon at US$5 one-time (not a subscription). checkoutEnabled must stay false. Do not add a payment URL, and do not add the paid product ZIP to this public repository. Dodo Payments Digital Files is the planned delivery method only after it is configured, tested, and payment is enabled. The other three product directions remain Planned."
 }

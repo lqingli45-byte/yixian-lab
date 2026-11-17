@@ -148,6 +148,8 @@ h3 { font-size: 1.25rem; }
 .notice { padding: 18px 20px; margin: 28px 0 0; color: var(--muted); }
 .legal { padding: 28px 32px; }
 .legal p, .legal li { color: var(--ink); }
+.legal ul { margin: 8px 0 16px; padding-left: 1.3em; }
+.legal li + li { margin-top: 4px; }
 .legal .muted, .muted { color: var(--muted); }
 .contact-box {
   display: grid;
@@ -194,4 +196,33 @@ h3 { font-size: 1.25rem; }
     box-shadow: var(--shadow);
   }
   .nav.is-open { display: flex; }
+}
+
+/* Unused on the published site. Kept so an accidental preview banner cannot sit unstyled. */
+.preview-banner {
+  background: #2f5646;
+  color: #fff;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  padding: 8px 16px;
+  line-height: 1.45;
+}
+.badge-status {
+  font-size: 13px;
+  padding: 6px 12px;
+  letter-spacing: 0.02em;
+  white-space: normal;
+  line-height: 1.4;
+}
+.product-card .badge {
+  white-space: normal;
+  line-height: 1.4;
+}
+.product-card .card-link {
+  display: inline-block;
+  margin-top: 14px;
+  font-size: 15px;
+  font-weight: 600;
 }
