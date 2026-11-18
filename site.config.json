@@ -8,8 +8,18 @@
   "suggestedRepoName": "yixian-lab",
   "publicBaseUrl": "https://lqingli45-byte.github.io/yixian-lab/",
   "githubRepo": "https://github.com/lqingli45-byte/yixian-lab",
-  "status": "preview-branch-dodo-review-checkout-not-enabled",
+  "status": "review-preview",
   "checkoutEnabled": false,
-  "notes": "Preview-branch files for a Dodo re-review remediation. Do not merge to main or change GitHub Pages until the owner confirms. First product is AI Work Log & Review Kit v1.1, US$5 one-time (not a subscription). Product files are complete. checkoutEnabled must stay false until Dodo is configured, tested, enabled, and the user confirms. Do not add a live buy button, do not submit Dodo review, and do not include the paid product ZIP. Other three product directions remain Planned. Do not modify 谷知了 / guzhiliao-website.",
-  "policyLastUpdated": "2026-11-18"
+  "notes": "PR preview. Keep the sales archive out of GitHub. Enable checkout only with an owner-approved live Dodo hosted link after purchase and delivery verification.",
+  "policyLastUpdated": "2026-11-18",
+  "checkoutUrl": null,
+  "product": {
+    "name": "AI Work Log & Review Kit",
+    "version": "v1.1",
+    "priceCents": 500,
+    "currency": "USD",
+    "billing": "one-time",
+    "fileCount": 35,
+    "deliveryFilename": "AI-Work-Log-and-Review-Kit-v1.1.zip"
+  }
 }

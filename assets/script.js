@@ -11,3 +11,28 @@
     toggle.setAttribute("aria-label", open ? openLabel : closedLabel);
   });
 })();
+
+(function () {
+  var link = document.querySelector("[data-checkout-link]");
+  if (!link) return;
+  var status = document.querySelector("[data-checkout-status]");
+
+  fetch("site.config.json", { cache: "no-store" })
+    .then(function (response) {
+      return response.ok ? response.json() : null;
+    })
+    .then(function (config) {
+      if (!config || config.checkoutEnabled !== true || typeof config.checkoutUrl !== "string") return;
+
+      var url = new URL(config.checkoutUrl);
+      if (url.origin !== "https://checkout.dodopayments.com" || url.username || url.password ||
+          !/^\/buy\/pdt_[A-Za-z0-9]+\/?$/.test(url.pathname)) return;
+
+      link.href = url.href;
+      link.hidden = false;
+      if (status) status.hidden = true;
+    })
+    .catch(function () {
+      // Leave the visible purchase status in place if the public config is unavailable.
+    });
+})();
