@@ -148,3 +148,8 @@ code {
   letter-spacing: 0;
   word-break: break-word;
 }
+
+[data-checkout-link][hidden],
+[data-checkout-status][hidden] {
+  display: none;
+}

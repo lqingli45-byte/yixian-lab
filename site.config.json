@@ -8,7 +8,18 @@
   "suggestedRepoName": "yixian-lab",
   "publicBaseUrl": "https://lqingli45-byte.github.io/yixian-lab/",
   "githubRepo": "https://github.com/lqingli45-byte/yixian-lab",
-  "status": "published",
+  "status": "review-preview",
   "checkoutEnabled": false,
-  "notes": "Official Yixian Lab site on GitHub Pages. First product is AI Work Log & Review Kit v1.1, listed as Coming Soon at US$5 one-time (not a subscription). checkoutEnabled must stay false. Do not add a payment URL, and do not add the paid product ZIP to this public repository. Dodo Payments Digital Files is the planned delivery method only after it is configured, tested, and payment is enabled. The other three product directions remain Planned."
+  "notes": "PR preview. Keep the sales archive out of GitHub. Enable checkout only with an owner-approved live Dodo hosted link after purchase and delivery verification.",
+  "policyLastUpdated": "2026-11-18",
+  "checkoutUrl": null,
+  "product": {
+    "name": "AI Work Log & Review Kit",
+    "version": "v1.1",
+    "priceCents": 500,
+    "currency": "USD",
+    "billing": "one-time",
+    "fileCount": 35,
+    "deliveryFilename": "AI-Work-Log-and-Review-Kit-v1.1.zip"
+  }
 }
