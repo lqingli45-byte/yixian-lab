@@ -8,7 +8,8 @@
   "suggestedRepoName": "yixian-lab",
   "publicBaseUrl": "https://lqingli45-byte.github.io/yixian-lab/",
   "githubRepo": "https://github.com/lqingli45-byte/yixian-lab",
-  "status": "published",
+  "status": "preview-branch-dodo-review-checkout-not-enabled",
   "checkoutEnabled": false,
-  "notes": "Official Yixian Lab site on GitHub Pages. First product is AI Work Log & Review Kit v1.1, listed as Coming Soon at US$5 one-time (not a subscription). checkoutEnabled must stay false. Do not add a payment URL, and do not add the paid product ZIP to this public repository. Dodo Payments Digital Files is the planned delivery method only after it is configured, tested, and payment is enabled. The other three product directions remain Planned."
+  "notes": "Preview-branch files for a Dodo re-review remediation. Do not merge to main or change GitHub Pages until the owner confirms. First product is AI Work Log & Review Kit v1.1, US$5 one-time (not a subscription). Product files are complete. checkoutEnabled must stay false until Dodo is configured, tested, enabled, and the user confirms. Do not add a live buy button, do not submit Dodo review, and do not include the paid product ZIP. Other three product directions remain Planned. Do not modify 谷知了 / guzhiliao-website.",
+  "policyLastUpdated": "2026-11-18"
 }
